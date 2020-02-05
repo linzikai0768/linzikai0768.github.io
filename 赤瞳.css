@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@keyframes momve {
+    0% {transform: translateY(200px) rotateY(0);}
+    100% {transform: translateY(200px) rotateY(-360deg);}
+}
+body {
+    perspective: 900px;
+    background: url(./media/0a.jpg) no-repeat  center 0;
+    background-size: 100%;
+    /* filter:blur(1px) */
+}
+.w {
+    position: relative;
+    width: 21px;
+    height: 300px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    animation: momve 30s linear infinite ;
+}
+.w>div {
+    position: absolute;
+}
+
+@keyframes move {
+    0% {
+        transform: rotateY(0);
+    }
+    100% {
+        transform:  rotateY(360deg);
+    }
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    left: -333.5%;
+    width: 161px;
+    height: 90px;
+    margin: 0 auto;
+    transform-style: preserve-3d;
+    animation: move 10s linear infinite;
+}
+div[class^="bb"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+div[class^="bb"] img {
+    width: 161px;
+}
+
+.w div:nth-child(1) {transform:rotateY(0deg) translateZ(300px) ;}
+.w div:nth-child(2) {transform:rotateY(4deg) translateZ(300px) ;}
+.w div:nth-child(3) {transform:rotateY(8deg) translateZ(300px) ;}
+.w div:nth-child(4) {transform:rotateY(12deg) translateZ(300px) ;}
+.w div:nth-child(5) {transform:rotateY(16deg) translateZ(300px) ;}
+.w div:nth-child(6) {transform:rotateY(20deg) translateZ(300px) ;}
+.w div:nth-child(7) {transform:rotateY(24deg) translateZ(300px) ;}
+.w div:nth-child(8) {transform:rotateY(28deg) translateZ(300px) ;}
+.w div:nth-child(9) {transform:rotateY(32deg) translateZ(300px) ;}
+.w div:nth-child(10) {transform:rotateY(36deg) translateZ(300px) ;}
+.w div:nth-child(11) {transform:rotateY(40deg) translateZ(300px) ;}
+.w div:nth-child(12) {transform:rotateY(44deg) translateZ(300px) ;}
+.w div:nth-child(13) {transform:rotateY(48deg) translateZ(300px) ;}
+.w div:nth-child(14) {transform:rotateY(52deg) translateZ(300px) ;}
+.w div:nth-child(15) {transform:rotateY(56deg) translateZ(300px) ;}
+.w div:nth-child(16) {transform:rotateY(60deg) translateZ(300px) ;}
+.w div:nth-child(17) {transform:rotateY(64deg) translateZ(300px) ;}
+.w div:nth-child(18) {transform:rotateY(68deg) translateZ(300px) ;}
+.w div:nth-child(19) {transform:rotateY(72deg) translateZ(300px) ;}
+.w div:nth-child(20) {transform:rotateY(76deg) translateZ(300px) ;}
+.w div:nth-child(21) {transform:rotateY(80deg) translateZ(300px) ;}
+.w div:nth-child(22) {transform:rotateY(84deg) translateZ(300px) ;}
+.w div:nth-child(23) {transform:rotateY(88deg) translateZ(300px) ;}
+.w div:nth-child(24) {transform:rotateY(92deg) translateZ(300px) ;}
+.w div:nth-child(25) {transform:rotateY(96deg) translateZ(300px) ;}
+.w div:nth-child(26) {transform:rotateY(100deg) translateZ(300px) ;}
+.w div:nth-child(27) {transform:rotateY(104deg) translateZ(300px) ;}
+.w div:nth-child(28) {transform:rotateY(108deg) translateZ(300px) ;}
+.w div:nth-child(29) {transform:rotateY(112deg) translateZ(300px) ;}
+.w div:nth-child(30) {transform:rotateY(116deg) translateZ(300px) ;}
+.w div:nth-child(31) {transform:rotateY(120deg) translateZ(300px) ;}
+.w div:nth-child(32) {transform:rotateY(124deg) translateZ(300px) ;}
+.w div:nth-child(33) {transform:rotateY(128deg) translateZ(300px) ;}
+.w div:nth-child(34) {transform:rotateY(132deg) translateZ(300px) ;}
+.w div:nth-child(35) {transform:rotateY(136deg) translateZ(300px) ;}
+.w div:nth-child(36) {transform:rotateY(140deg) translateZ(300px) ;}
+.w div:nth-child(37) {transform:rotateY(144deg) translateZ(300px) ;}
+.w div:nth-child(38) {transform:rotateY(148deg) translateZ(300px) ;}
+.w div:nth-child(39) {transform:rotateY(152deg) translateZ(300px) ;}
+.w div:nth-child(40) {transform:rotateY(156deg) translateZ(300px) ;}
+.w div:nth-child(41) {transform:rotateY(160deg) translateZ(300px) ;}
+.w div:nth-child(42) {transform:rotateY(164deg) translateZ(300px) ;}
+.w div:nth-child(43) {transform:rotateY(168deg) translateZ(300px) ;}
+.w div:nth-child(44) {transform:rotateY(172deg) translateZ(300px) ;}
+.w div:nth-child(45) {transform:rotateY(176deg) translateZ(300px) ;}
+.w div:nth-child(46) {transform:rotateY(180deg) translateZ(300px) ;}
+.w div:nth-child(47) {transform:rotateY(-176deg) translateZ(300px) ;}
+.w div:nth-child(48) {transform:rotateY(-172deg) translateZ(300px) ;}
+.w div:nth-child(49) {transform:rotateY(-168deg) translateZ(300px) ;}
+.w div:nth-child(50) {transform:rotateY(-164deg) translateZ(300px) ;}
+.w div:nth-child(51) {transform:rotateY(-160deg) translateZ(300px) ;}
+.w div:nth-child(52) {transform:rotateY(-156deg) translateZ(300px) ;}
+.w div:nth-child(53) {transform:rotateY(-152deg) translateZ(300px) ;}
+.w div:nth-child(54) {transform:rotateY(-148deg) translateZ(300px) ;}
+.w div:nth-child(55) {transform:rotateY(-144deg) translateZ(300px) ;}
+.w div:nth-child(56) {transform:rotateY(-140deg) translateZ(300px) ;}
+.w div:nth-child(57) {transform:rotateY(-136deg) translateZ(300px) ;}
+.w div:nth-child(58) {transform:rotateY(-132deg) translateZ(300px) ;}
+.w div:nth-child(59) {transform:rotateY(-128deg) translateZ(300px) ;}
+.w div:nth-child(60) {transform:rotateY(-124deg) translateZ(300px) ;}
+.w div:nth-child(61) {transform:rotateY(-120deg) translateZ(300px) ;}
+.w div:nth-child(62) {transform:rotateY(-116deg) translateZ(300px) ;}
+.w div:nth-child(63) {transform:rotateY(-112deg) translateZ(300px) ;}
+.w div:nth-child(64) {transform:rotateY(-108deg) translateZ(300px) ;}
+.w div:nth-child(65) {transform:rotateY(-104deg) translateZ(300px) ;}
+.w div:nth-child(66) {transform:rotateY(-100deg) translateZ(300px) ;}
+.w div:nth-child(67) {transform:rotateY(-96deg) translateZ(300px) ;}
+.w div:nth-child(68) {transform:rotateY(-92deg) translateZ(300px) ;}
+.w div:nth-child(69) {transform:rotateY(-88deg) translateZ(300px) ;}
+.w div:nth-child(70) {transform:rotateY(-84deg) translateZ(300px) ;}
+.w div:nth-child(71) {transform:rotateY(-80deg) translateZ(300px) ;}
+.w div:nth-child(72) {transform:rotateY(-76deg) translateZ(300px) ;}
+.w div:nth-child(73) {transform:rotateY(-72deg) translateZ(300px) ;}
+.w div:nth-child(74) {transform:rotateY(-68deg) translateZ(300px) ;}
+.w div:nth-child(75) {transform:rotateY(-64deg) translateZ(300px) ;}
+.w div:nth-child(76) {transform:rotateY(-60deg) translateZ(300px) ;}
+.w div:nth-child(77) {transform:rotateY(-56deg) translateZ(300px) ;}
+.w div:nth-child(78) {transform:rotateY(-52deg) translateZ(300px) ;}
+.w div:nth-child(79) {transform:rotateY(-48deg) translateZ(300px) ;}
+.w div:nth-child(80) {transform:rotateY(-44deg) translateZ(300px) ;}
+.w div:nth-child(81) {transform:rotateY(-40deg) translateZ(300px) ;}
+.w div:nth-child(82) {transform:rotateY(-36deg) translateZ(300px) ;}
+.w div:nth-child(83) {transform:rotateY(-32deg) translateZ(300px) ;}
+.w div:nth-child(84) {transform:rotateY(-28deg) translateZ(300px) ;}
+.w div:nth-child(85) {transform:rotateY(-24deg) translateZ(300px) ;}
+.w div:nth-child(86) {transform:rotateY(-20deg) translateZ(300px) ;}
+.w div:nth-child(87) {transform:rotateY(-16deg) translateZ(300px) ;}
+.w div:nth-child(88) {transform:rotateY(-12deg) translateZ(300px) ;}
+.w div:nth-child(89) {transform:rotateY(-8deg) translateZ(300px) ;}
+.w div:nth-child(90) {transform:rotateY(-4deg) translateZ(300px) ;}
+
+
+
+.w .box .bb1 {    transform: translateY(100px) translateZ(400px);}
+.w .box .bb2 {    transform: translateY(100px) rotateY(120deg) translateZ(400px);}
+.w .box .bb3 {    transform: translateY(100px) rotateY(150deg) translateZ(400px);}
+.w .box .bb4 {    transform: translateY(100px) rotateY(180deg) translateZ(400px);}
+.w .box .bb5 {    transform: translateY(100px) rotateY(30deg) translateZ(400px);}
+.w .box .bb6 {    transform: translateY(100px) rotateY(60deg) translateZ(400px);}
+.w .box .bb7 {    transform: translateY(100px) rotateY(90deg) translateZ(400px);}
+.w .box .bb8 {    transform: translateY(100px) rotateY(-150deg) translateZ(400px);}
+.w .box .bb9 {    transform: translateY(100px) rotateY(-90deg) translateZ(400px);}
+.w .box .bb10 {   transform: translateY(100px) rotateY(-120deg) translateZ(400px);}
+.w .box .bb11 {   transform: translateY(100px) rotateY(-60deg) translateZ(400px);}
+.w .box .bb12 {   transform: translateY(100px) rotateY(-30deg) translateZ(400px);}
+
+.box img:hover {
+    box-shadow: 0px 0px 4px 5px rgb(87, 37, 37);
+    transform: scale(1.4);
+}
+
+.box img {
+    transition: all .3s;
+}
