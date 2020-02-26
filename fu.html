@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        div {
+        .img {
             width: 100%;
             max-width: 550px;
             margin: 0 auto;
-            
+
         }
+
         img {
             width: 100%;
         }
+
+        .int {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        button {
+            margin-left: 20px;
+        }
     </style>
 </head>
+
 <body>
-    <div>
+    <div class="img">
         <img src="./img/mmexport1582719672407.jpg" alt="">
     </div>
 
-    
+    <div class="int">
+        <button class="but1">不抱</button>
+
+        <button class="but2">抱</button>
+    </div>
+
+    <script src="./jquery.min.js"></script>
+    <script>
+        $(function () {
+            $(".but1").on("click", function () {
+                alert("呸")
+            });
+            $(".but2").on("click", function () {
+                alert("嘻嘻嘻")
+            })
+        })
+    </script>
 </body>
+
 </html>
